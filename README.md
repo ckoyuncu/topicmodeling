@@ -1,5 +1,5 @@
 # topicmodeling
-Repo that contains the code for Master's Thesis about Topic Modeling. 
+Repo that contains the scripts for Research Master's Thesis about Topic Modeling. 
 
 # includes 
 
