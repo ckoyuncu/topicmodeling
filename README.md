@@ -1,9 +1,11 @@
 # topicmodeling
-Repo that contains the scripts for Research Master's Thesis about Topic Modeling. 
 
-# includes 
+Repo that contains the scripts for Research Master's Thesis about LDA Topic Modeling. 
 
-- `guardian_lda.ipynb` - Notebook containing the pre-processing, modeling, and plotting for The Guardian
-- `nyt_lda.ipynb` -  Notebook containing the pre-processing, modeling, and plotting for The New York Times
-- `nytimes_eng.py` - Scraper for New York Times 
-- `tguardian_eng.py` - Scraper for The Guardian 
+# Structure
+
+- `datasets` - folder with raw datasets for TheNew York Times and The Guardian
+- `human_coherence` -  folder with topic intrusion tool and notebook for model training
+- `lda` - folder with preprocessing, lda topic modelling, and plotting scripts 
+- `scrapers` - folder with web scrapers for The New York Times and The Guardian
+
