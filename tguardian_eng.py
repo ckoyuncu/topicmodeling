@@ -7,6 +7,8 @@ all_data = []
 
 MY_API_KEY = 'c1ed206d-9ca3-4a87-ae13-0c1cf888b776'
 API_ENDPOINT = 'http://content.guardianapis.com/search'
+
+#dictionary which contains all parameters
 my_params = {
     'from-date': "",
     'to-date': "",
@@ -26,6 +28,9 @@ def dataParse(data):
 
 
 def search(query, start, end):
+    """
+    Function that includes the query search. Includes 3 parameters: query, start date, and end date
+    """
     a, b, c = start.split('-')
     d, e, f = end.split('-')
     start_date = datetime.date(int(a), int(b), int(c))
